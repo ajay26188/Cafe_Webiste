@@ -1,0 +1,75 @@
+.menu-board {
+    background-color: #fffefc;
+    color: #2c2c2c;
+    font-family: 'Segoe UI', 'Helvetica', sans-serif;
+    padding: 4rem 2rem;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .menu-board h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    color: #4b2e2e;
+  }
+  
+  .menu-category h3 {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.5rem;
+    color: #222;
+  }
+  
+  .chalkboard-menu,
+  .specials ul {
+    list-style: none;
+    padding: 0;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .chalkboard-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+    transition: background 0.2s ease;
+  }
+  
+  .chalkboard-item:hover {
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  .item-name {
+    flex: 1;
+    text-align: left;
+    font-weight: 500;
+  }
+  
+  .dots {
+    flex: 1;
+    text-align: center;
+    color: #aaa;
+  }
+  
+  .item-price {
+    text-align: right;
+    min-width: 80px;
+    font-weight: 500;
+  }
+  
+  .specials h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #b3541e;
+  }
+  
+  .specials .special {
+    color: #b3541e;
+    font-weight: bold;
+  }
+  

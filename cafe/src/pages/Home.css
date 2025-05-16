@@ -1,0 +1,155 @@
+/* Home.css */
+.hero {
+    height: 90vh;
+    background: url('/coffee-bg.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 12px;
+    color: #fff;
+    max-width: 600px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #c59d5f;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero-button:hover {
+    background-color: #a47c42;
+  }
+
+  .features {
+    padding: 3rem 2rem;
+    text-align: center;
+    background-color: #f5f1ec;
+  }
+  
+  .features h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #4b2e2e;
+  }
+  
+  .feature-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .feature-item {
+    background-color: #fff;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .testimonial {
+    padding: 3rem 1rem;
+    text-align: center;
+    background-color: #f7f3ef;
+    color: #4b2e2e;
+  }
+  
+  .testimonial h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .testimonial-slider {
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  .testimonial blockquote {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-style: italic;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  }
+  
+  .testimonial blockquote span {
+    display: block;
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #7c5b44;
+    font-style: normal;
+  }
+  
+  .slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #4b2e2e;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    padding: 0 0.5rem;
+    z-index: 2;
+  }
+  
+  .slider-btn:hover {
+    color: #a97d5d;
+  }
+  
+  .slider-btn:first-of-type {
+    left: 0;
+  }
+  
+  .slider-btn:last-of-type {
+    right: 0;
+  }
+
+  .visit-us {
+    margin-top: 3rem;
+    padding: 2rem 0;
+    text-align: center;
+    background-color: #fdf7f2;
+  }
+  
+  .visit-button {
+    background-color: #4b2e2e;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .visit-button:hover {
+    background-color: #6a3f3f;
+  }
+  
+  
+  
