@@ -20,5 +20,3 @@ A simple and stylish café website built using React.
 - JavaScript
 - HTML/CSS
 - Netlify (for deployment)
-
-https://ajays-cafe.netlify.app
